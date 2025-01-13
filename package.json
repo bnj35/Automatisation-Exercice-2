@@ -1,0 +1,24 @@
+{
+  "name": "vite",
+  "version": "1.0.0",
+  "description": "Ce projet est un petit annuaire d'entreprises.   Il permet de lister plusieurs entreprises, et d'en voir leur bureaux et employées.",
+  "homepage": "https://github.com/bnj35/Automatisation-Exercice-2#readme",
+  "bugs": {
+    "url": "https://github.com/bnj35/Automatisation-Exercice-2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bnj35/Automatisation-Exercice-2.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "vite.config.js",
+  "scripts": {
+    "install": "npm install vite --save-dev",
+    "build": "npx vite build"
+  },
+  "devDependencies": {
+    "vite": "^6.0.7"
+  }
+}
