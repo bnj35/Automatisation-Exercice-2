@@ -16,9 +16,11 @@
   "main": "vite.config.js",
   "scripts": {
     "install": "npm install vite --save-dev",
-    "build": "npx vite build"
+    "build": "npx vite build",
+    "lint": "eslint 'assets/**/*.{js,jsx}'"
   },
   "devDependencies": {
+    "eslint": "^9.18.0",
     "vite": "^6.0.7"
   }
 }
